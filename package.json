@@ -1,0 +1,40 @@
+{
+  "name": "create-vue-docs-ui",
+  "version": "1.0.1",
+  "description": "Scaffolding tool for Vue Docs UI projects - Create beautiful documentation websites with one command",
+  "type": "module",
+  "bin": {
+    "create-vue-docs-ui": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenjianZ/create-vue-docs-ui.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "documentation",
+    "docs",
+    "scaffolding",
+    "cli",
+    "create",
+    "markdown",
+    "yaml",
+    "ui-library",
+    "static-site-generator",
+    "out-of-the-box"
+  ],
+  "author": "Vue Docs UI Team",
+  "license": "MIT",
+  "homepage": "https://github.com/shenjianZ/create-vue-docs-ui#readme",
+  "bugs": {
+    "url": "https://github.com/shenjianZ/create-vue-docs-ui/issues"
+  }
+}

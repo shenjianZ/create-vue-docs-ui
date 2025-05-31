@@ -1,0 +1,175 @@
+# Website Configuration
+site:
+  title: "Vue Docs UI"
+  description: "Beautiful documentation websites made simple"
+  # Logo formats supported:
+  # 1. emoji: "📚"
+  # 2. image URL: "https://example.com/logo.png"
+  # 3. local image: "/images/logo.png"
+  # 4. relative path: "./assets/logo.svg"
+  logo: "📚"
+  author: "Vue Docs UI Team"
+  # Base URL for your site (without trailing slash)
+  url: "https://your-domain.com"
+  # Language code for HTML lang attribute
+  lang: "en"
+  
+  # SEO Configuration
+  seo:
+    keywords: ["Vue", "documentation", "UI", "component library", "frontend"]
+    image: "/images/og-image.png"
+    twitter: "@VueDocsUI"
+  
+  # Contact and Social Links
+  contact:
+    email: "contact@vuedocsui.com"
+    github: "https://github.com/shenjianZ/vue-docs-ui"
+    twitter: "https://twitter.com/VueDocsUI"
+    discord: "https://discord.gg/vue-docs-ui"
+
+# Navigation Bar Configuration
+navbar:
+  items:
+    - title: "Home"
+      link: "/" 
+    - title: "Documentation"
+      link: "/guide/introduction"
+    - title: "Examples"
+      link: "/examples/basic"
+    - title: "GitHub"
+      link: "https://github.com/shenjianZ/vue-docs-ui"
+      external: true
+      icon: "github"
+
+# Sidebar Navigation Configuration
+sidebar:
+  sections:
+    - title: "Getting Started"
+      path: "/guide"
+      children:
+        - title: "Introduction"
+          path: "/guide/introduction"
+        - title: "Installation"
+          path: "/guide/installation"
+        - title: "Quick Start"
+          path: "/guide/quick-start"
+        - title: "Configuration"
+          path: "/guide/configuration"
+          
+    - title: "Advanced"
+      path: "/advanced"
+      children:
+        - title: "Customization"
+          path: "/advanced/customization"
+        - title: "Themes"
+          path: "/advanced/themes"
+        - title: "Components"
+          path: "/advanced/components"
+        - title: "API Reference"
+          path: "/advanced/api"
+        - title: "Deployment"
+          path: "/advanced/deployment"
+        - title: "Performance"
+          path: "/advanced/performance"
+          
+    - title: "Examples"
+      path: "/examples"
+      children:
+        - title: "Basic Usage"
+          path: "/examples/basic"
+        - title: "Advanced Features"
+          path: "/examples/advanced"
+        - title: "Custom Components"
+          path: "/examples/components"
+
+# Search Configuration
+search:
+  enabled: true
+  # Search provider: 'local' | 'algolia'
+  provider: "local"
+  # For Algolia search
+  algolia:
+    appId: ""
+    apiKey: ""
+    indexName: ""
+
+# Theme Configuration
+theme:
+  # Default theme mode: 'light' | 'dark' | 'auto'
+  # light: Force light mode
+  # dark: Force dark mode
+  # auto: Follow system preference (default)
+  defaultMode: "auto"
+  
+  # Allow users to toggle theme (show theme toggle button)
+  allowToggle: true
+  
+  # Color Configuration
+  colors:
+    primary: "#3b82f6"
+    secondary: "#64748b"
+    accent: "#06b6d4"
+    background: "#ffffff"
+    surface: "#f8fafc"
+    text: "#1e293b"
+    textSecondary: "#64748b"
+    border: "#e2e8f0"
+    success: "#10b981"
+    warning: "#f59e0b"
+    error: "#ef4444"
+    
+  fonts:
+    primary: "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    mono: "JetBrains Mono, Consolas, Monaco, monospace"
+    
+  # Layout Configuration
+  layout:
+    headerHeight: "60px"
+    sidebarWidth: "280px"
+    tocWidth: "240px"
+    contentMaxWidth: "1200px"
+
+# Table of Contents Configuration
+toc:
+  # Maximum heading level to display in TOC (1-6)
+  maxLevel: 3
+  
+  # Enable table of contents
+  enabled: true
+  
+  # TOC title
+  title: "On This Page"
+  
+  # Show TOC on mobile devices
+  showOnMobile: false
+
+# Footer Configuration
+footer:
+  enabled: true
+  copyright: "© 2024 Vue Docs UI. All rights reserved."
+  links:
+    - title: "Documentation"
+      link: "/guide/introduction"
+    - title: "GitHub"
+      link: "https://github.com/shenjianZ/vue-docs-ui"
+      external: true
+    - title: "License"
+      link: "/license"
+
+# Analytics Configuration
+analytics:
+  # Google Analytics
+  google:
+    enabled: false
+    id: ""
+  
+  # Other analytics providers can be added here
+
+# PWA Configuration
+pwa:
+  enabled: false
+  name: "Vue Docs UI"
+  shortName: "VueDocsUI"
+  description: "Beautiful documentation websites made simple"
+  themeColor: "#3b82f6"
+  backgroundColor: "#ffffff" 
