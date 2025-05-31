@@ -1,6 +1,6 @@
 {
   "name": "create-vue-docs-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Scaffolding tool for Vue Docs UI projects - Create beautiful documentation websites with one command",
   "type": "module",
   "bin": {
