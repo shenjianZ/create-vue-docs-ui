@@ -126,11 +126,35 @@ npm run preview      # Preview production build
 - [Vue.js](https://vuejs.org/) - The progressive JavaScript framework
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling
 
-## Support
+## 📞 Support & Community
 
 - 📖 [Documentation](https://github.com/shenjianZ/vue-docs-ui)
-- 🐛 [Report Issues](https://github.com/shenjianZ/vue-docs-ui/issues)
-- 💡 [Feature Requests](https://github.com/shenjianZ/vue-docs-ui/discussions)
+- 🐛 [Report Issues](https://github.com/shenjianZ/create-vue-docs-ui/issues)
+- 💡 [Feature Requests](https://github.com/shenjianZ/create-vue-docs-ui/discussions)
+- 💬 [Join Discussions](https://github.com/shenjianZ/vue-docs-ui/discussions)
+- 📧 [Email Support](mailto:contact@vuedocsui.com)
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+📖 **Documentation in multiple languages:**
+- 🇺🇸 [English Contributing Guide](CONTRIBUTING.md)
+- 🇨🇳 [中文贡献指南](CONTRIBUTING-zh.md)
+
+### Quick Contributing
+
+- 🐛 [Report bugs](https://github.com/shenjianZ/create-vue-docs-ui/issues/new)
+- 💡 [Request features](https://github.com/shenjianZ/create-vue-docs-ui/discussions/new)
+- 📖 [Improve documentation](https://github.com/shenjianZ/create-vue-docs-ui/edit/master/README.md)
+- 🎨 [Enhance templates](https://github.com/shenjianZ/create-vue-docs-ui/tree/master/template)
+
+## 📊 Stats
+
+![npm](https://img.shields.io/npm/v/create-vue-docs-ui?style=flat-square&logo=npm)
+![downloads](https://img.shields.io/npm/dt/create-vue-docs-ui?style=flat-square&logo=npm)
+![GitHub stars](https://img.shields.io/github/stars/shenjianZ/create-vue-docs-ui?style=flat-square&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/shenjianZ/create-vue-docs-ui?style=flat-square&logo=github)
 
 ## License
 
