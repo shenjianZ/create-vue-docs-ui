@@ -17,11 +17,11 @@ navbar:
       link: "/"
       active: true
     - title: "指南"
-      link: "/guide/introduction"
+      link: "/guide"
     - title: "进阶"
-      link: "/advanced/themes"
+      link: "/advanced"
     - title: "示例"
-      link: "/examples/index"
+      link: "/examples"
     - title: "GitHub"
       link: "https://github.com/shenjianZ/vue-docs-ui"
       external: true
