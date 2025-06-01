@@ -1,97 +1,63 @@
-# Website Configuration
+# 网站基本配置
 site:
-  title: "Vue Docs UI"
-  description: "Beautiful documentation websites made simple"
-  # Logo formats supported:
-  # 1. emoji: "📚"
-  # 2. image URL: "https://example.com/logo.png"
-  # 3. local image: "/images/logo.png"
-  # 4. relative path: "./assets/logo.svg"
+  title: "Vue Docs UI 示例项目"
+  description: "基于 Vue Docs UI 构建的文档网站示例"
+  # logo支持以下格式：
+  # 1. emoji: "🤖"
+  # 2. 图片URL: "https://example.com/logo.png"
+  # 3. 本地图片: "/images/logo.png"
+  # 4. 相对路径: "./assets/logo.svg"
   logo: "📚"
   author: "Vue Docs UI Team"
-  # Base URL for your site (without trailing slash)
-  url: "https://your-domain.com"
-  # Language code for HTML lang attribute
-  lang: "en"
   
-  # SEO Configuration
-  seo:
-    keywords: ["Vue", "documentation", "UI", "component library", "frontend"]
-    image: "/images/og-image.png"
-    twitter: "@VueDocsUI"
-  
-  # Contact and Social Links
-  contact:
-    email: "contact@vuedocsui.com"
-    github: "https://github.com/shenjianZ/vue-docs-ui"
-    twitter: "https://twitter.com/VueDocsUI"
-    discord: "https://discord.gg/vue-docs-ui"
-
-# Navigation Bar Configuration
+# 顶部导航配置
 navbar:
   items:
-    - title: "Home"
-      link: "/" 
-    - title: "Documentation"
+    - title: "首页"
+      link: "/"
+      active: true
+    - title: "指南"
       link: "/guide/introduction"
-    - title: "Examples"
-      link: "/examples/basic"
+    - title: "进阶"
+      link: "/advanced/themes"
+    - title: "示例"
+      link: "/examples/index"
     - title: "GitHub"
       link: "https://github.com/shenjianZ/vue-docs-ui"
       external: true
-      icon: "github"
 
-# Sidebar Navigation Configuration
+# 侧边栏导航配置
 sidebar:
   sections:
-    - title: "Getting Started"
+    - title: "快速开始"
       path: "/guide"
       children:
-        - title: "Introduction"
+        - title: "介绍"
           path: "/guide/introduction"
-        - title: "Installation"
+        - title: "安装"
           path: "/guide/installation"
-        - title: "Quick Start"
+        - title: "快速上手"
           path: "/guide/quick-start"
-        - title: "Configuration"
+        - title: "配置说明"
           path: "/guide/configuration"
           
-    - title: "Advanced"
+    - title: "进阶指南"
       path: "/advanced"
       children:
-        - title: "Customization"
-          path: "/advanced/customization"
-        - title: "Themes"
+        - title: "自定义主题"
           path: "/advanced/themes"
-        - title: "Components"
+        - title: "组件开发"
           path: "/advanced/components"
-        - title: "API Reference"
+        - title: "API 参考"
           path: "/advanced/api"
-        - title: "Deployment"
+        - title: "部署"
           path: "/advanced/deployment"
-        - title: "Performance"
-          path: "/advanced/performance"
           
-    - title: "Examples"
+    - title: "示例"
       path: "/examples"
       children:
-        - title: "Basic Usage"
+        - title: "基础示例"
           path: "/examples/basic"
-        - title: "Advanced Features"
-          path: "/examples/advanced"
-        - title: "Custom Components"
-          path: "/examples/components"
-
-# Search Configuration
-search:
-  enabled: true
-  # Search provider: 'local' | 'algolia'
-  provider: "local"
-  # For Algolia search
-  algolia:
-    appId: ""
-    apiKey: ""
-    indexName: ""
 
 # Theme Configuration
 theme:
@@ -138,7 +104,7 @@ toc:
   enabled: true
   
   # TOC title
-  title: "On This Page"
+  title: "本页目录"
   
   # Show TOC on mobile devices
   showOnMobile: false
@@ -148,12 +114,12 @@ footer:
   enabled: true
   copyright: "© 2024 Vue Docs UI. All rights reserved."
   links:
-    - title: "Documentation"
+    - title: "文档"
       link: "/guide/introduction"
     - title: "GitHub"
       link: "https://github.com/shenjianZ/vue-docs-ui"
       external: true
-    - title: "License"
+    - title: "许可证"
       link: "/license"
 
 # Analytics Configuration

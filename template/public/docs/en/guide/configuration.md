@@ -1,17 +1,17 @@
 # Configuration
 
-## 配置概述
+## Configuration Overview
 
-Vue Docs UI 提供了灵活的配置选项，允许您自定义文档网站的外观和行为。
+Vue Docs UI provides flexible configuration options that allow you to customize the appearance and behavior of your documentation website.
 
-## 基本配置
+## Basic Configuration
 
-### site.yaml 文件
+### site.yaml File
 
-配置文件位于 `public/config/site.yaml`，包含以下主要部分：
+The configuration file is located at `public/config/site.yaml` and contains the following main sections:
 
 ```yaml
-# 网站配置
+# Website Configuration
 site:
   title: "Vue Docs UI"
   description: "Beautiful documentation websites made simple"
@@ -19,7 +19,7 @@ site:
   author: "Vue Docs UI Team"
 ```
 
-### 导航栏配置
+### Navigation Bar Configuration
 
 ```yaml
 navbar:
@@ -31,7 +31,7 @@ navbar:
       link: "/guide"
 ```
 
-### 侧边栏配置
+### Sidebar Configuration
 
 ```yaml
 sidebar:
@@ -43,9 +43,9 @@ sidebar:
           path: "/guide/introduction"
 ```
 
-## 主题配置
+## Theme Configuration
 
-### 颜色自定义
+### Color Customization
 
 ```yaml
 theme:
@@ -55,7 +55,7 @@ theme:
     accent: "#06b6d4"
 ```
 
-### 字体配置
+### Font Configuration
 
 ```yaml
 theme:
@@ -64,6 +64,6 @@ theme:
     mono: "JetBrains Mono, Consolas, monospace"
 ```
 
-## 高级配置
+## Advanced Configuration
 
-更多高级配置选项请参考相关文档。 
+For more advanced configuration options, please refer to the related documentation. 

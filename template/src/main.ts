@@ -1,7 +1,8 @@
 // 开箱即用示例 - 仅需3行代码！
 import { createDocsApp } from 'vue-docs-ui'
 import 'vue-docs-ui/dist/vue-docs-ui.css'
-
+// import createDocsApp from '../../../vue-docs-ui/dist/vue-docs-ui.es.js'
+// import '../../../vue-docs-ui/dist/vue-docs-ui.css'
 // 等待DOM加载完成后再启动应用
 document.addEventListener('DOMContentLoaded', () => {
   // 启动文档应用
