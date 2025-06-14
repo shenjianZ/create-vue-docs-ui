@@ -1,0 +1,54 @@
+{
+  "name": "Vue 文档站点",
+  "short_name": "VueDocs",
+  "description": "Vue文档站点生成器",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "zh-CN",
+  
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "搜索文档",
+      "short_name": "搜索",
+      "description": "快速搜索文档内容",
+      "url": "/?action=search"
+    },
+    {
+      "name": "新建反馈",
+      "short_name": "反馈",
+      "description": "提交文档反馈",
+      "url": "/?action=feedback"
+    }
+  ],
+  
+  "categories": [
+    "productivity",
+    "developer",
+    "documentation"
+  ],
+  
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ]
+} 
