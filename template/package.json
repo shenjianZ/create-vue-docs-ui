@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "vue": "^3.3.0",
-    "vue-router": "^4.2.0",
-    "vue-docs-ui": "^1.0.10"
+    "vue-docs-ui": "^1.0.12",
+    "vue-router": "^4.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.0",
-    "vite": "^4.4.0",
-    "typescript": "^5.0.0"
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "^5.0.0",
+    "vite": "^7.0.6"
   }
 }
